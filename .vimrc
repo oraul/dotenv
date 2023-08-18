@@ -21,9 +21,7 @@ set backspace=2
 set number
 set title " change the terminal's title
 
-filetype on        " Enable filetype detection
-filetype indent on " Enable filetype-specific indenting
-filetype plugin on " Enable filetype-specific plugin
+filetype plugin indent on
 
 " :help new-omni-completion :help compl-omni
 set omnifunc=syntaxcomplete#Complete
@@ -59,7 +57,7 @@ Plugin 'mattn/emmet-vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'mhinz/vim-signify'
 Plugin 'christoomey/vim-tmux-navigator'
 Bundle 'vim-ruby/vim-ruby'
